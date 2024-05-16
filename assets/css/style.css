@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.box{
+    height: 50px auto;
+    max-height: 600px;
+    width: 500px;
+    background-color: rgb(223, 203, 203);
+    border-radius: 15px;
+    text-align: center;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 30px
+}
+input{
+    background-color: aqua;
+    border-style: none;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#resultadoIMC{
+    font-size: 40px;
+    width: 100%;
+    max-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
